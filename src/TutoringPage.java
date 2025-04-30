@@ -288,7 +288,7 @@ public class TutoringPage extends BackgroundPanel {
 
         for (Tutor tutor : tutors) {
             tutorsPanel.add(tutor);
-            tutorsPanel.add(Box.createRigidArea(new Dimension(0, 10))); // Tutorlar arasında boşluk
+            tutorsPanel.add(Box.createRigidArea(new Dimension(0, 10))); // Tuto rlar arasında boşluk
         }
 
 
