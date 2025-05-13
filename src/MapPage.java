@@ -1,23 +1,3 @@
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
-import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.ArrayList;
-import java.util.List;
-
-public class MapPage extends BackgroundPanel {
-    public MapPage(AppFrame frame) {
-        setLayout(new BorderLayout());
-        add(new JLabel("Page 1", JLabel.CENTER), BorderLayout.CENTER);
-    }
-}
 
 import javax.swing.*;
 import java.awt.*;
