@@ -15,7 +15,13 @@ public class MainPage extends BackgroundPanel {
         page1.addActionListener(e -> frame.showPage("page1"));
         page2.addActionListener(e -> frame.showPage("page2"));
         page3.addActionListener(e -> frame.showPage("page3"));
-        page4.addActionListener(e -> frame.showPage("page4"));
+         page4.addActionListener(e -> {
+            // SliderFrame: Page 4 
+            SwingUtilities.invokeLater(() -> {
+                SliderFrame sliderFrame = new SliderFrame();
+                sliderFrame.setVisible(true);
+            });
+        }); 
         page5.addActionListener(e -> frame.showPage("page5"));
 
         add(page1);
